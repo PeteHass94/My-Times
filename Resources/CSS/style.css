@@ -1,0 +1,164 @@
+#header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+#logoimg {
+  width: 70px;
+  height: 60px;
+  padding-left: 30px;
+  margin-right: 12px;
+}
+
+#logo {
+  color: MediumAquamarine;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+
+}
+nav {
+  display: block;
+  padding-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+  text-align: right;
+}
+
+a {
+  color: black;
+}
+div {
+  border: 0px solid black;
+}
+h1, h2, h3, p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.column {
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  margin: 0 40px;
+}
+.large, .medium, .small {
+  margin: 0 25px;
+}
+
+.large {
+  width: 630px;
+}
+
+.medium {
+  width: 300px;
+}
+
+.small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainPic, .subPic1, .subPic2, .sidePic {
+  height: 300px;
+}
+
+.mainPic{
+  background-image: url("../Images/Img-story-main.png");
+}
+.mainPic h1 {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.subPic1 h3, .subPic2 h3 {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.subPic1 {
+  background-image: url("../Images/Img-story-2.png");
+}
+.subPic2 {
+  background-image: url("../Images/Img-story-3.png");
+}
+
+.sidePic {
+  background-image: url("../Images/Img-story-1.png");
+}
+.sidePic h3 {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 299px;
+}
+.stories h2{
+  font-size: 24px;
+}
+.subText1, .subText2 {
+  margin: 10px 0;
+}
+
+.small h2 {
+  margin-bottom: 41px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.small span {
+  display: block;
+    padding: 11px 20px;
+    border-bottom: 1px solid black;
+    background-color: WhiteSmoke;
+    font-family: Verdana;
+    font-size: 12px;
+    color: DimGray;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+footer #title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  border-right: 2px solid white;
+  padding-right: 30px;
+}
+footer nav {
+  display: inline-block;
+}
